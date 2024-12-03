@@ -1,0 +1,54 @@
+.i-mp
+{
+    margin: 2rem;
+}
+
+.markets
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-m
+{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/shop.png');
+    background-size: 100%;
+    color: #462d1e;
+    text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+    height: 100%;
+}
+
+.create-marketplace
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    width: 25%;
+}
+
+.create-marketplace input[type="text"] 
+{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.create-marketplace input[type="number"] 
+{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.create-marketplace button 
+{
+    background-color: rgb(255, 161, 37);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.i-m
+{
+    margin: 2rem;
+}
+
+.monster-horde
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delete-button {
+    background-color: rgb(153, 4, 4);
+}
+
+.create-button {
+    background-color: rgb(153, 4, 4);
+}
+
+.update-button {
+    background-color: rgb(158, 84, 0);
+}
+
+.dungeon-wrap
+{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../assets/cave.png');
+    background-size: contain;
+    color: #f1f1f1;
+    height: 100%;
+}
+
+.all-item-data {
+    margin: 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+}
